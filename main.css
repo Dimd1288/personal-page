@@ -1,0 +1,256 @@
+.container
+{   position:relative;
+    width: 1000px;
+    margin: 0 auto ;
+    top:-350px;
+    
+}
+
+.first_column
+{
+    float:left;
+    margin-right:60px;
+    width:330px;
+    margin-top: 10px;
+}
+
+.second_column
+{
+    width: 570px;
+    float:left;
+}
+
+.photo
+{
+    width:330px;
+    margin-bottom:50px;
+    
+}
+
+blockquote
+{
+width: 566px;
+height: 344px;
+font-size: 28px;
+line-height: 42px;
+color: rgb(255,255,255);
+font-family: "Georgia";
+font-style: italic;
+
+}
+
+blockquote p
+{
+   font-size: 16px;
+line-height: 42px;
+color: rgb(245,245,245);
+font-family: "Open Sans";
+font-weight: bold;
+}
+
+.big_title
+{
+    font-size: 48px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans";
+    font-weight: bold;  
+    margin-top: 0;
+}
+
+.middle_title
+{
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans";
+    margin-bottom: 0;
+}
+
+.about_me
+{
+    
+    font-size: 19px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";
+}
+
+.sidebar
+{
+    font-size: 24px;
+    line-height: 32px;
+    color: #15a98c;
+    font-family: "Open Sans";
+    font-weight: bold; 
+    margin-top:0 ;
+}
+
+ol.sidebar, ul.sidebar 
+{
+    font-size: 19px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";
+    font-weight:inherit;
+    padding: 0;
+    margin-left: 20px;
+    margin-bottom: 57px;
+}
+
+.quote
+{
+    position:relative;
+    top:50px;
+}
+
+.write_me
+{
+    margin:56px 0;
+}
+
+.banner
+{
+      width: 100%;
+      background: black;
+      height: 400px;
+}
+
+.black-layer
+{
+    background: black;
+    height:400px;
+    width:100%;
+    opacity: 0.7;
+}
+
+.navigation
+{
+   max-height: 50px;
+   width:1000px;
+   margin: 0 auto;
+   
+}
+
+.navigation-list
+{
+    
+    list-style: none;
+    padding-left: 0;
+    
+   
+}
+
+.navigation-list-item
+{
+    padding: 0 20px 0 20px;
+    display: inline;
+    
+    
+}
+
+.navigation-item-first
+{
+   background-image: url(Images/button_background.jpg);
+   max-height:50px;
+   padding:22px 20px 22px 20px;
+   font-size: 19px;
+   line-height: 32px;
+   color: #f5f5f5;
+   font-family: "Georgia";
+}
+
+.navigation-item-first img, .navigation-list-item img
+{
+    margin-right: 5px;
+}
+
+
+
+body
+{
+    margin: 0;
+}
+
+.music-item
+{
+    width: 285px;
+    word-break: normal;
+    padding:0 0px 0 20px;
+    float:left;
+    height: 565px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #555555;
+    font-family: "Georgia";
+}
+.music
+{
+ 
+ width: 1240px; 
+ padding:0;
+ text-align: center;
+ margin:-100px;
+  
+
+ }
+
+ .music img
+{
+    max-width: 285px;
+    margin:0;
+    padding:0;
+    max-height: 400px;
+}
+
+.clear
+{
+    clear:both;
+}
+
+.music-title
+{
+    text-align:left;
+    margin-left:20px;
+    font-size: 36px;
+    line-height: 42px;
+    color: #333333;
+    font-family: "Open Sans";
+}
+
+.music-subtitle
+{
+    margin:0;
+}
+
+a.button
+{
+    
+    border-radius: 5px;
+    background-color: #15a98b;
+    padding: 15px 50px 15px 50px;
+    text-decoration:none;
+    font-size: 19px;
+    line-height: 32px;
+    color: #f5f5f5;
+    font-family: "Georgia";
+    
+    
+}
+
+.button
+{   
+    position:relative;
+    width:250px;
+    margin:0 auto 250px auto;
+    top: 250px;
+}
+
+.copyright
+{
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    color: #555555;
+    font-family: "Georgia";
+}
