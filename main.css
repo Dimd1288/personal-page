@@ -17,7 +17,7 @@ ul, li, body, blockquote
 
 .container
 {
-    max-width: 960px;
+    width: 960px;
     margin: 0 auto ;
     padding-top: 205px;
   
@@ -26,7 +26,7 @@ ul, li, body, blockquote
 
 .main_menu
 {
-    max-width: 960px;
+    width: 960px;
     margin: 0 auto;
     height: 50px;
    
@@ -114,7 +114,7 @@ ul, li, body, blockquote
 {
     display: inline-block;
     max-width: 330px;
-    height: 350px;
+    max-height: 350px;
     overflow: hidden;
     z-index:100;
     background: #FFFFFF;
@@ -138,7 +138,7 @@ ul, li, body, blockquote
 
 .quotation
 {
-    max-width: 570px;
+    width: 570px;
     position: relative;
     font-size: 28px;
     line-height: 42px;
@@ -518,17 +518,13 @@ ul, li, body, blockquote
     
 @media screen and (max-width: 586px)
 {
-    .quotation
-    {
-        top: -80px;
-        font-size: 24px;
-        line-height: 30px;
-    }
+    
      
     
     .main_menu_item
     {
         float: none;
+        margin-bottom: 5px;
     }
     
     .main_menu
@@ -536,14 +532,15 @@ ul, li, body, blockquote
         height: 160px;
     }
     
-    .container
+    .mail_me.mail_me_title:after,
+    .mail_me.mail_me_title:before
     {
-        max-width: 80%;
+        width: 90%;
     }
     
     .send_mail
     {
-        max-width: 80%;
+        width: 80%;
     }
     
     .some_text
@@ -568,16 +565,11 @@ ul, li, body, blockquote
     
 }
 
-@media screen and (max-width: 404px)
+@media screen and (max-width: x)
 {
     .quotation
     {
-        top: -80px;
-        font-size: 18px;
-        line-height: 25px;
-        margin-left: 0;
-        width: 90%;
-        left: -20px;
+        
         
     }
     
@@ -650,4 +642,265 @@ ul, li, body, blockquote
         margin-right: 30px;
     }
     
+}
+
+@media screen and (max-width: 1240px)
+{
+    .music
+    {
+        position: relative;
+        left: 7%;
+        width: 800px;
+        
+    }
+}
+
+@media screen and (max-width: 996px)
+{
+    .container
+    {
+        width: 500px;
+        
+        
+    }
+    
+    .main_menu
+    {
+        width: 100%;
+    }
+    
+    .quotation
+    {
+        width: 500px;
+        font-size: 22px;
+ 
+    }
+    
+    .first_column
+    {
+        position: relative;
+        bottom: 100px;
+    }
+    
+    .music
+    {
+        width: 700px;
+        position: relative;
+        bottom: 100px;
+        margin-bottom: -100px;
+       
+        
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 850px)
+{
+   
+    
+    .music
+    {
+        width: 300px;
+        margin: 0;
+        margin-left: 80px;
+    }
+    
+    .music p
+    {
+        width: 500px;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 687px)
+{
+    
+    
+    
+    .music
+    {
+        margin-left: 0;
+    }
+    
+}
+
+
+@media screen and (max-width: 726px)
+    {
+         .copyright
+        {
+            line-height: 35px;
+        }
+    }
+
+
+@media screen and (max-width: 591px)
+{
+    .music p
+    {
+        width: 385px;
+    }
+    
+   .music
+    {
+        margin-left: -30px;
+        margin-bottom: -120px;
+    }
+}
+
+@media screen and (max-width: 545px)
+{
+    .container
+    {
+        width: 400px;
+    }
+    
+    .quotation
+    {
+        width: 400px;
+    }
+    
+    .about_me
+    {
+        padding-right: 10px;
+    }
+    
+    .big_title
+    {
+        display: block;
+        line-height: 60px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 438px)
+{
+    .container
+    {
+        width: 350px;
+    }
+    
+    .quotation
+    {
+        width: 350px;
+        line-height: 30px;
+        font-size: 18px;
+        
+    }
+    
+    .quotation p
+    {
+         font-size: 14px;
+    }
+    
+    
+    .music p
+    {
+        width: 285px;
+    }
+    
+}
+
+@media screen and (max-width: 386px)
+{
+    .container
+    {
+        width: 300px;
+    }
+    
+    .send_mail
+    {
+        width: 75%;
+    }
+    
+    .photo
+    {
+        width: 290px;
+        height: 290px;
+    }
+    .photo img
+    {
+        width: 290px;
+    }
+    
+    .quotation
+    {
+        width: 300px;
+    }
+    
+}
+
+
+@media screen and (max-width: 336px)
+{   
+    .container
+    {
+        max-width:280px;
+    }
+    
+    .quotation
+    {
+        max-width: 280px;
+    }
+    
+    .photo
+    {
+        max-width: 270px;
+        max-height: 270px;
+    }
+    .photo img
+    {
+        max-width: 270px;
+    }
+    
+    
+    
+    .music-item
+    {
+        max-width: 260px;
+        margin-right: 0;
+    }
+    
+    .music-item img
+    {
+        max-width: 260px;
+    }
+    
+    .music-item p
+    {
+        max-width: 260px;
+    }
+
+    .music-title
+    {
+        
+        max-width: 200px;
+        font-size: 20px;
+    }
+    
+    
+    
+    .music
+    {
+        max-width: 260px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 318px)
+{
+    .container
+    {
+        width: 100%;
+    }
+    
+    .quotation
+    {
+        width: 100%;
+        line-height: 20px;
+    }
 }
