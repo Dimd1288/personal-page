@@ -38,7 +38,7 @@
         <p class="about_me">
           Своим главным увлечением считаю занятие музыкой на любительском уровне. Люблю петь песни под гитару в компании, без компании, а если придется, то и без гитары. 
         </p>
-          <a href="https://vk.com/id16693031" class="write_me"><span class="write_me_line">Напиши мне</span> &rarr;</a>
+          <a href="#" class="write_me"><span class="write_me_line">Напиши мне</span> &rarr;</a>
           </div>
       <div class="sidebar">
         <p class="sidebar_title">Любимые книги:</p>
@@ -139,11 +139,11 @@
         <div class="button clear"><a href="#" id='music-button'>Слушать музыку</a></div>
       <div class="send_mail">
         <h3 class="mail_me mail_me_title">Напиши мне</h3>
-        <form class="mail_me" action="#" method="post">
+        <form name='formone' class="mail_me" action="server" method="post">
           <label class="star" for="name">Ваше имя</label>
-          <input type="text" id="name" required>
+          <input class='required' type="text" id="name" required>
           <label class="star" for="email">Ваш Email</label>
-          <input type="email" id="email" required>
+          <input class='required' type="email" id="email" required>
           <label for="your_country">Откуда вы?
             <select class="country" name="country" id="your_country">
               <option value="Russia">Россия</option>
@@ -158,10 +158,10 @@
               <input type="radio" name="male" value="woman">Женский
             </label>
           </div>
-          <label class="star" for="some_words">
+          <label  class='required' class="star" for="some_words">
             Ваше сообщение
           </label>
-          <textarea class="some_text" name=”some_text” id="some_words" required></textarea>
+          <textarea class="some_text required" name=”some_text” id="some_words" required></textarea>
           <input class="send_button" type="submit" value="Отправить">
         </form>
       </div>

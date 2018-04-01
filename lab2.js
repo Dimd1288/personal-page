@@ -14,3 +14,17 @@
 		  
 		  )
 	
+  
+
+var send = document.getElementsByClassName('send_button')[0];
+var ness = document.getElementsByClassName('required');
+console.log(ness);
+send.addEventListener('click', function(){
+        event.preventDefault();
+            for (var i=0; i<ness.length; i++){
+                 ness[i].classList.add('req');
+                                             }
+    
+                                          }
+                      )
+
