@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
+      <div class="back_in_black"></div>
     <div class="main_menu">
       <ul class="main_menu_list">
         <li class="main_menu_item">Обо мне</li>
@@ -139,7 +140,9 @@
         <div class="button clear"><a href="#" id='music-button'>Слушать музыку</a></div>
       <div class="send_mail">
         <h3 class="mail_me mail_me_title">Напиши мне</h3>
+          
         <form name='formone' class="mail_me" action="server" method="post">
+           <span class='close'></span>
           <label class="star" for="name">Ваше имя</label>
           <input class='required' type="text" id="name" required>
           <label class="star" for="email">Ваш Email</label>
