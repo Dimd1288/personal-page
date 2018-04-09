@@ -6,17 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Дмитрий Домрачев</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+	<script src="jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
+
     <div class="back_in_black"></div>
+	
     <div class="main_menu">
+		<nav>
         <ul class="main_menu_list">
             <li class="main_menu_item">Обо мне</li>
             <li class="main_menu_item">Моё хобби</li>
             <li class="main_menu_item">Любимая музыка</li>
         </ul>
+		</nav>
     </div>
+	
     <div class="main_content">
 
         <div class="container">
@@ -29,11 +35,11 @@
                 <div class="photo"> <img src="Images/photo.jpg" alt="My Photo"></div>
                 <div class="second_column">
                     <h1 class="big_title">Дмитрий Домрачев</h1>
-                    <p class="about_me">
+                    <p class="about_me" id='aboutMe'>
                         Родился и вырос в городе Йошкар-Ола. Получил высшее образование по специальности "физика" в МарГУ, выпуск 2011 года. В настоящее время работаю специалистом технической поддержки компании TravelLine.
                     </p>
                     <h2 class="middle_title">Мое хобби:</h2>
-                    <p class="about_me">
+                    <p class="about_me" id='myHobby'>
                         Своим главным увлечением считаю занятие музыкой на любительском уровне. Люблю петь песни под гитару в компании, без компании, а если придется, то и без гитары.
                     </p>
                     <a href="#" class="write_me"><span class="write_me_line">Напиши мне</span> &rarr;</a>
@@ -167,8 +173,9 @@
         </div>
     </div>
     <div class="copyright clear">&copy;2006-2018 Поволжский государственный технологический университет, ФГБОУ ВО &#171;ПГТУ&#187; </div>
-    <script src="jquery-3.3.1.min.js"></script>
+    
     <script src="lab2.js"></script>
+	<script src="jquery_lab.js"></script>
 </body>
 
 </html>
